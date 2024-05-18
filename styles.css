@@ -31,7 +31,7 @@ main p {
 }
 
 .progress-bar {
-    width: 60%; /* Adjust this width to represent the progress */
+    width: 20%; /* Adjust this width to represent the progress */
     height: 100%;
     background-color: #b0e0e6; /* baby blue color */
     border-radius: 15px 0 0 15px;
