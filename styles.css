@@ -3,7 +3,7 @@ body {
     padding: 0;
     font-family: Arial, sans-serif;
     background-color: #28292C;
-    color: #b0e0e6; /* baby blue color */
+    color: #b0e0e6;
 }
 
 .container {
@@ -31,9 +31,9 @@ main p {
 }
 
 .progress-bar {
-    width: 20%; /* Adjust this width to represent the progress */
+    width: 20%;
     height: 100%;
-    background-color: #b0e0e6; /* baby blue color */
+    background-color: #b0e0e6;
     border-radius: 15px 0 0 15px;
 }
 
