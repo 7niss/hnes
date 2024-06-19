@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="de-ch">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width/">
+    <meta name="author" content="Rieder Hannes">
+    <meta name="publisher" content="Rieder Hannes">
+    <meta name="copyright" content="Rieder Hannes">
+    <meta name="description" content="Ein kleines Portfolio über mich, Hannes Rieder. Es verfügt über Projekte, meine skills sowie kontakt möglichkeiten.">
+    <meta name="keywords" content="Rieder, Hannes, Rieder, Hannes, Hannes, Rieder, Portfolio, Projekte, Kontakt, Skills, Wiler, Lötschental, NOSS, Spiez">
+    <meta name="page-type" content="Private Homepage">
+    <meta name="audience" content="Alle">
+    <meta http-equiv="content-language" content="de">
+    <meta name="robots" content="index, follow">
+    <meta name="DC.Creator" content="Rieder Hannes">
+    <meta name="DC.Publisher" content="Rieder Hannes">
+    <meta name="DC.Rights" content="Rieder Hannes">
+    <meta name="DC.Description" content="Ein kleines Portfolio über mich, Hannes Rieder. Es verfügt über Projekte, meine skills sowie kontakt möglichkeiten.">
+    <meta name="DC.Language" content="de">
+    <title>Skills - Hannes Rieder</title>
+    <link rel="icon" type="image/x-icon" href="hnes.png">
+    <style type="text/css">
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+  width: 100%;
+  background-color: white;
+  height: 1080px;
+  font-family: "Montserrat", "arial";
+}
+
+#header {
+  background-color: #161819;
+  width: 100%;
+  height: 15%;
+  margin-left: -10px;
+  margin-top: -20px;
+  background-size: auto auto;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  color: white;
+}
+
+#middle {
+  background-color: #dff6ff;
+  width: 100%;
+  height: 1080px !important;
+  margin-left: -10px;
+  margin-top: -40px;
+  background-image: url("hannesbg.png");
+  background-size: 100% auto;
+  background-attachment: fixed;
+}
+
+#bottom {
+  background-color: #47474c;
+  width: 100%;
+  height: 10% !important;
+  margin-left: -10px;
+  text-align: center;
+  margin-top: -20px;
+}
+
+li {
+  list-style-type: none;
+}
+
+.home {
+  float: left;
+  padding-left: 3px;
+  font-size: 25px;
+}
+
+.button2 {
+  float: right;
+  font-size: 25px;
+}
+
+.button {
+  float: right;
+  font-size: 25px;
+}
+
+a {
+  margin-top: 60px;
+  margin-right: 40px;
+  -webkit-text-decoration-color: currentcolor;
+  text-decoration-color: currentcolor;
+  -webkit-text-decoration-line: none;
+  text-decoration-line: none;
+  -webkit-text-decoration-style: solid;
+  text-decoration-style: solid;
+  color: white;
+}
+
+ul {
+  display: block;
+}
+
+.titel {
+  font-size: 40px;
+  padding-top: 50px;
+  padding-left: 70px;
+  font-weight: bold;
+}
+
+.main {
+  padding-left: 70px;
+  margin-top: -35px;
+  margin-right: 0px;
+  text-align: justify;
+  padding-right: 300px;
+  font-size: 25px;
+}
+
+.text {
+  padding-top: 45px;
+}
+
+img {
+  float: left;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.kaze {
+  float: right;
+  clear: none;
+  overflow-x: visible;
+  overflow-y: visible;
+  display: table;
+}
+
+.skills {
+  width: 60%;
+  margin-left: 10%;
+  text-align: center;
+}
+
+.js {
+  width: 100px;
+}
+
+.html:hover {
+  transform: scale(1.5);
+}
+
+.js:hover {
+  transform: scale(1.5);
+}
+
+.css:hover {
+  transform: scale(1.5);
+}
+
+.office:hover {
+  transform: scale(1.5);
+}
+
+.gimp:hover {
+  transform: scale(1.5);
+}
+
+.skills:hover {
+  font-size: 25px;
+}
+
+</style></head>
+  <body>
+    <div id="header">
+      <ul>
+        <li><a href="index.html" class="home">Home</a></li>
+        <li><a href="contact.html" class="button2">contact</a></li>
+        <li><a href="projects.html" class="button 3">projects</a></li>
+        <li><a href="skills.html" class="button 4">skills</a></li>
+      </ul>
+    </div>
+    <div style="height: 90% !important;" id="middle">
+      <p class="titel">Skills</p>
+      <p class="main"><br>
+      </p>
+      <p class="main"><br>
+      </p>
+      <p class="main">Hey, ich bin <i>Hannes</i>!👋</p>
+      <p class="main"><br>
+      </p>
+      <p class="main"><br>
+        Unten findest du eine Liste aller Fähigkeiten, die ich meistere. Jede
+        Fähigkeit ist detailliert beschrieben, damit du einen klaren Überblick
+        über mein Können erhältst. Ich habe in verschiedenen Bereichen
+        umfassende Erfahrungen gesammelt und freue mich, mein Wissen mit dir zu
+        teilen. Viel Spass beim Entdecken!<br>
+        <br>
+        <br>
+      </p>
+      <table class="skills" style="width: 60%;" cellpadding="50%" border="0">
+        <tbody>
+          <tr>
+            <td>HTML</td>
+            <td>CSS</td>
+            <td>JavaScript</td>
+            <td>Office365-Programme</td>
+            <td style="height: 60px; background-color: rgba(185, 150, 195, 0.01);">Gimp</td>
+          </tr>
+          <tr>
+            <td style="text-align: center; vertical-align: middle; background-color: rgba(135, 123, 134, 0.01); vertical-align: middle"><a
+                href="htmlskill.html"><img src="html.png" alt="" class="html"></a><br>
+            </td>
+            <td><a href="cssskill.html"><img src="css.png" alt="" class="css"></a><br>
+            </td>
+            <td><a href="javascriptskill.html"><img src="JS.png" alt="" class="js"></a><br>
+            </td>
+            <td style="text-align: center; vertical-align: middle; background-color: rgba(143, 181, 195, 0.01);"><a
+                href="officeskill.html"><img src="office365.png" alt="" class="office"></a><br>
+            </td>
+            <td><a href="gimpskill.html"><img src="gimp.png" alt="" class="gimp"></a><br>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <p class="main"><br>
+        &nbsp;&nbsp;&nbsp;&nbsp; </p>
+    </div>
+    <div id="bottom">
+      <p class="text"> ~/* designed and created by Hannes Rieder. All rights
+        reserved. */~</p>
+    </div>
+  </body>
+</html>

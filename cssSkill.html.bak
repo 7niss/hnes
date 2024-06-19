@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="de-ch">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="author" content="Rieder Hannes">
+    <meta name="publisher" content="Rieder Hannes">
+    <meta name="copyright" content="Rieder Hannes">
+    <meta name="description" content="Ein kleines Portfolio über mich, Hannes Rieder. Es verfügt über Projekte, meine skills sowie kontakt möglichkeiten.">
+    <meta name="keywords" content="Rieder, Hannes, Rieder, Hannes, Hannes, Rieder, Portfolio, Projekte, Kontakt, Skills, Wiler, Lötschental, NOSS, Spiez">
+    <meta name="page-type" content="Private Homepage">
+    <meta name="audience" content="Alle">
+    <meta http-equiv="content-language" content="de">
+    <meta name="robots" content="index, follow">
+    <meta name="DC.Creator" content="Rieder Hannes">
+    <meta name="DC.Publisher" content="Rieder Hannes">
+    <meta name="DC.Rights" content="Rieder Hannes">
+    <meta name="DC.Description" content="Ein kleines Portfolio über mich, Hannes Rieder. Es verfügt über Projekte, meine skills sowie kontakt möglichkeiten.">
+    <meta name="DC.Language" content="de">
+    <meta name="viewport" content="width=device-width/">
+    <title>CSS - Hannes Rieder</title>
+    <link rel="icon" type="image/x-icon" href="hnes.png">
+    <style type="text/css">
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+  width: 100%;
+  background-color: white;
+  height: 1080px;
+  font-family: "Montserrat", "arial";
+}
+
+#header {
+  background-color: #161819;
+  width: 100%;
+  height: 15% !important;
+  margin-left: -10px;
+  margin-top: -20px;
+  background-size: auto auto;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  color: white;
+}
+
+#middle {
+  background-color: #dff6ff;
+  width: 100%;
+  height: 75% !important;
+  margin-left: -10px;
+  margin-top: -40px;
+  background-image: url("hannesbg.png");
+  background-size: 100% auto;
+  background-attachment: fixed;
+}
+
+#bottom {
+  background-color: #243231;
+  width: 100%;
+  height: 10% !important;
+  margin-left: -10px;
+  text-align: center;
+  margin-top: -20px;
+}
+
+li {
+  list-style-type: none;
+}
+
+.home {
+  float: left;
+  padding-left: 3px;
+}
+
+.button2 {
+  float: right;
+}
+
+.button {
+  float: right;
+}
+
+a {
+  margin-top: 60px;
+  margin-right: 40px;
+  -webkit-text-decoration-color: currentcolor;
+  text-decoration-color: currentcolor;
+  -webkit-text-decoration-line: none;
+  text-decoration-line: none;
+  -webkit-text-decoration-style: solid;
+  text-decoration-style: solid;
+  color: white;
+}
+
+div {
+  font-size: 20px;
+  position: static;
+}
+
+ul {
+  display: block;
+}
+
+.titel {
+  font-size: 40px;
+  padding-top: 50px;
+  padding-left: 70px;
+  font-weight: bold;
+}
+
+.main {
+  padding-left: 70px;
+  margin-top: -35px;
+  margin-right: 0px;
+  text-align: justify;
+  padding-right: 300px;
+  font-size: 25px;
+}
+
+.text {
+  padding-top: 45px;
+}
+
+img {
+  float: left;
+}
+
+.kaze {
+  float: right;
+  clear: none;
+  overflow-x: visible;
+  overflow-y: visible;
+  display: table;
+}
+
+</style> </head>
+  <body>
+    <div id="header">
+      <ul>
+        <li><a href="index.html" class="home">Home</a></li>
+        <li><a href="contact.html" class="button2">contact</a></li>
+        <li><a href="projects.html" class="button 3">projects</a></li>
+        <li><a href="skills.html" class="button 4">skills</a></li>
+      </ul>
+    </div>
+    <div style="height: 90% !important;" id="middle">
+      <p class="titel">CSS</p>
+      <p class="main"><br>
+      </p>
+      <p class="main">Hey, ich bin <i>Hannes</i>!👋</p>
+      <p class="main"><br>
+        <b>Was ist CSS?</b><br>
+        <br>
+        CSS (Cascading Style Sheets) ist eine Stylesheet-Sprache, die verwendet
+        wird, um das Aussehen und das Layout von HTML-Dokumenten zu beschreiben.
+        Mit CSS kannst du die Darstellung von Webseiten gestalten und anpassen,
+        indem du beispielsweise Farben, Schriftarten, Abstände und Positionen
+        von Elementen definierst. <br>
+        <br>
+        <b>Kenntnisse:</b><br>
+        <br>
+        Ich beherrsche die Grundlagen von CSS und kann damit ansprechende und
+        funktionale Webseiten gestalten. Egal ob es um Layouts, Farben,
+        Typografie oder Animationen geht, ich nutze CSS, um eine
+        benutzerfreundliche und ästhetisch ansprechende Webpräsenz zu schaffen.</p>
+      <p class="main"><br>
+      </p>
+      <p class="main"> <br>
+      </p>
+    </div>
+    <div id="bottom">
+      <p class="text"> ~/* designed and created by Hannes Rieder. All rights
+        reserved. */~</p>
+    </div>
+  </body>
+</html>
