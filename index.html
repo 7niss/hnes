@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button Click Example</title>
+    <style>
+        body {
+            margin: 0;
+            height: 100vh;
+            background-image: url('realest.png');
+            background-size: cover; /* Stretches the image to cover the whole screen */
+            background-position: center; /* Centers the background image */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden; /* Prevents scrollbars */
+            position: relative; /* Needed to position the video container */
+        }
+        #button {
+            cursor: pointer;
+            border: none;
+            background: transparent;
+            width: 150px; /* Sets the button width to 150px */
+            height: auto; /* Maintains aspect ratio */
+        }
+        #video-container {
+            display: none; /* Initially hidden */
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 80vw; /* Width of the video container */
+            height: 45vw; /* Height of the video container */
+            max-width: 800px; /* Maximum width */
+            max-height: 450px; /* Maximum height */
+            background: #000; /* Background color for better contrast */
+        }
+        #video-container video {
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+<body>
+    <img id="button" src="button.png" alt="Button">
+    <div id="video-container">
+        <video id="video" controls autoplay>
+            <source src="real.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+    <script>
+        document.getElementById('button').addEventListener('click', function() {
+            var button = this;
+            var videoContainer = document.getElementById('video-container');
+
+            button.src = 'buttonpressed.png';
+
+            setTimeout(function() {
+                button.src = 'button.png';
+                videoContainer.style.display = 'block'; // Show the video container
+            }, 150);
+        });
+    </script>
+</body>
+</html>
