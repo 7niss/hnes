@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QWERTZ</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            flex-direction: column;
+            background: url('realest.png') no-repeat center center / cover;
+        }
+        h1 {
+            color: #333;
+            margin-bottom: 20px;
+        }
+        .button-image {
+            cursor: pointer;
+            width: 150px; 
+            height: auto; 
+        }
+    </style>
+</head>
+<body>
+    <h1>DONTPRESSTHEBUTTON</h1>
+    <img id="buttonImage" src="button.png" alt="Button Image" class="button-image" onclick="imageButtonClick()">
+    <script>
+        function imageButtonClick() {
+            var image = document.getElementById('buttonImage');
+            var originalSrc = image.src;
+            image.src = 'button pressed.png'; 
+            setTimeout(function() {
+                image.src = originalSrc;
+            }, 150); 
+            setTimeout(function() {
+                window.close();
+            }, 2000); 
+        }
+    </script>
+</body>
+</html>
