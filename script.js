@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 let response;
                 switch (command.toLowerCase()) {
                     case 'info':
-                        response = `I am Hannes Rieder, 16 years old, living in the canton of Valais, Switzerland, and currently apprenticing as a Media Specialist (Mediamatiker).`;
+                        response = `I am Hannes, 16 years old, living in the canton of Valais, Switzerland, and currently apprenticing as a Media Specialist (Mediamatiker).`;
                         break;
                     case 'skills':
                         response = `I specialize in digital media, content creation, and multimedia design, with proficiency in graphic design software and video editing tools.`;
