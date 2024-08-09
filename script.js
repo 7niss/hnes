@@ -37,9 +37,6 @@ document.addEventListener('DOMContentLoaded', () => {
                                     YouTube: <a href="https://www.youtube.com/@styIing" target="_blank">@styIing</a><br>
                                     X: <a href="https://x.com/xn1ss" target="_blank">xn1ss</a>`;
                         break;
-                    case 'muili187':
-                        response = `leck meine eier omE: <a href="https://www.twitch.tv/muiliii" target="_blank">hilfe</a>`;
-                        break;
                     default:
                         response = `Command not recognized: ${command}`;
                 }
