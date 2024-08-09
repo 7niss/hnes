@@ -5,12 +5,11 @@ document.addEventListener('DOMContentLoaded', () => {
     const commandList = document.getElementById('command-list');
     const commandListContent = document.getElementById('command-list-content');
 
-    // Add the "info", "skills", "contact", "socials", and "NeuerChatterBallHochhalten" commands to the command list initially
+    // Add the "info", "skills", "contact", "socials" commands to the command list initially
     addCommandToList('info');
     addCommandToList('skills');
     addCommandToList('contact');
     addCommandToList('socials');
-    addCommandToList('NeuerChatterBallHochhalten');
 
     commandInput.addEventListener('keypress', function (e) {
         if (e.key === 'Enter') {
@@ -49,9 +48,11 @@ document.addEventListener('DOMContentLoaded', () => {
                 responseParagraph.innerHTML = response; // Use innerHTML to render the anchor tags
                 output.appendChild(responseParagraph);
 
-                // Add command to list if not already there
-                if (![...commandListContent.children].some(item => item.textContent === command)) {
-                    addCommandToList(command);
+                // Add command to list if not already there (excluding "NeuerChatterBallHochhalten")
+                if (command.toLowerCase() !== 'neuerchatterballhochhalten') {
+                    if (![...commandListContent.children].some(item => item.textContent === command)) {
+                        addCommandToList(command);
+                    }
                 }
 
                 commandInput.value = '';
