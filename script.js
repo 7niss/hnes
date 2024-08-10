@@ -41,10 +41,12 @@ document.addEventListener('DOMContentLoaded', () => {
                 responseParagraph.innerHTML = response; 
                 output.appendChild(responseParagraph);
 
+                if (![...commandListContent.children].some(item => item.textContent === command)) {
+                    addCommandToList(command);
                 }
 
                 commandInput.value = '';
-                output.scrollTop = output.scrollHeight; 
+                output.scrollTop = output.scrollHeight;  
             }
         }
     });
