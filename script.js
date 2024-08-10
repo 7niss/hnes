@@ -5,7 +5,6 @@ document.addEventListener('DOMContentLoaded', () => {
     const commandList = document.getElementById('command-list');
     const commandListContent = document.getElementById('command-list-content');
 
-    // Add the "info", "skills", "contact", "socials" commands to the command list initially
     addCommandToList('info');
     addCommandToList('skills');
     addCommandToList('contact');
@@ -20,7 +19,6 @@ document.addEventListener('DOMContentLoaded', () => {
                 newCommand.textContent = `C:\\> ${command}`;
                 output.appendChild(newCommand);
 
-                // Process the command
                 let response;
                 switch (command.toLowerCase()) {
                     case 'info':
@@ -40,18 +38,13 @@ document.addEventListener('DOMContentLoaded', () => {
                 }
 
                 const responseParagraph = document.createElement('p');
-                responseParagraph.innerHTML = response; // Use innerHTML to render the anchor tags
+                responseParagraph.innerHTML = response; 
                 output.appendChild(responseParagraph);
-
-                // Add command to list if not already there (excluding "NeuerChatterBallHochhalten")
-                if (command.toLowerCase() !== 'neuerchatterballhochhalten') {
-                    if (![...commandListContent.children].some(item => item.textContent === command)) {
-                        addCommandToList(command);
                     }
                 }
 
                 commandInput.value = '';
-                output.scrollTop = output.scrollHeight;  // Scroll to the bottom
+                output.scrollTop = output.scrollHeight;  
             }
         }
     });
@@ -61,7 +54,6 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     function addCommandToList(command) {
-        // Check if command is already in the list to avoid duplicates
         if (![...commandListContent.children].some(item => item.textContent === command)) {
             const listItem = document.createElement('li');
             listItem.textContent = command;
