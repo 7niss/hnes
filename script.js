@@ -33,9 +33,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         response = `You can reach me via email at contact@hnes.me or connect with me on Instagram at <a href="https://www.instagram.com/gipflaer/" target="_blank">@gipflaer</a>.`;
                         break;
                     case 'socials':
-                        response = `GitHub: <a href="https://github.com/7niss" target="_blank">7niss</a><br>
-                                    YouTube: <a href="https://www.youtube.com/@styIing" target="_blank">@styIing</a><br>
-                                    X: <a href="https://x.com/xn1ss" target="_blank">xn1ss</a>`;
+                        response = `GitHub: <a href="https://github.com/7niss" target="_blank">7niss</a><br>YouTube: <a href="https://www.youtube.com/@styIing" target="_blank">@styIing</a><br>X: <a href="https://x.com/xn1ss" target="_blank">xn1ss</a>`;
                         break;
                     default:
                         response = `Command not recognized: ${command}`;
