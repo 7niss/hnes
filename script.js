@@ -34,7 +34,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         response = `GitHub: <a href="https://github.com/7niss" target="_blank">7niss</a><br>YouTube: <a href="https://www.youtube.com/@styIing" target="_blank">@styIing</a><br>X: <a href="https://x.com/xn1ss" target="_blank">xn1ss</a>`;
                         break;
                     case 'botic':
-                        response = `Botic Lovers <a href="https://www.google.com/maps/place/Botic+Lovers/@46.2953131,7.8790369,15z/data=!4m2!3m1!1s0x0:0xc72b9850afbf3159?sa=X&ved=1t:2428&ictx=111&cshid=1725001159385491"`;
+                        response = `<a href="https://www.google.com/maps/place/Botic+Lovers/@46.2953131,7.8790369,15z/data=!4m2!3m1!1s0x0:0xc72b9850afbf3159?sa=X&ved=1t:2428&ictx=111" target="_blank">@styIing</a>`;
                         break;
                     default:
                         response = `Command not recognized: ${command}`;
