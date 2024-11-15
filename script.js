@@ -45,12 +45,11 @@ document.addEventListener('DOMContentLoaded', () => {
                         response = `Command not recognized: ${command}`;
                 }
 
-                const responseParagraph = document.createElement('p');
+                const responseParagraph = document.createElement('p');    
                 responseParagraph.innerHTML = response; 
                 output.appendChild(responseParagraph);
 
-                if (![...commandListContent.children].some(item => item.textContent === command)) {
-                    addCommandToList(command);
+
                 }
 
                 commandInput.value = '';
