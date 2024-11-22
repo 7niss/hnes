@@ -1,15 +1,16 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="p:domain_verify" content="987114d57910e4582b0a9c7037263116"/>
-    <title>Hnes.me</title>
-    <link rel="stylesheet" href="styles.css">
-     <link rel="icon" type="image/x-icon" href="hnes.png">
-</head>
 <body>
-    <div class="container">
+    <!-- Password Overlay -->
+    <div id="password-overlay" class="password-overlay">
+        <div class="password-box">
+            <h2>Enter Password</h2>
+            <input type="password" id="password-input" placeholder="Password" />
+            <button id="password-submit">Submit</button>
+            <p id="password-error" class="hidden">Incorrect password. Please try again.</p>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <div class="container hidden" id="main-content">
         <div class="command-prompt">
             <div class="header">
                 <div class="title">Command Prompt</div>
@@ -18,18 +19,16 @@
             <div class="output" id="output">
                 <p>Welcome to my Portfolio!</p>
                 <p>Type commands below:</p>
-                <div id="input-line">
-                    <span class="prompt">C:\></span>
-                    <input type="text" id="command-input" autofocus />
-                </div>
+            </div>
+            <div id="input-line">
+                <span class="prompt">C:\></span>
+                <input type="text" id="command-input" autofocus />
             </div>
             <div id="command-list" class="hidden">
                 <h3>Available Commands</h3>
-                <ul id="command-list-content">
-                </ul>
+                <ul id="command-list-content"></ul>
             </div>
         </div>
     </div>
     <script src="script.js"></script>
 </body>
-</html>
